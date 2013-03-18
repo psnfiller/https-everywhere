@@ -1,0 +1,9 @@
+<ruleset name="rachelbythebay.com">
+
+	<target host="*.rachelbythebay.com" />
+	<target host="rachelbythebay.com" />
+
+	<rule from="^http://(*\.)?rachelbythebay.com/"
+		to="https://$1rachelbythebay.com/" />
+
+</ruleset>
